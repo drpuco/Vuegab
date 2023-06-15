@@ -3,11 +3,11 @@
     <v-toolbar
       dark
       prominent
-      image="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+      image="./public/gabbiglogo.png"
     >
       <v-app-bar-nav-icon white></v-app-bar-nav-icon>
 
-      <v-toolbar-title class="text-white">GAB Bildung</v-toolbar-title>
+      <v-toolbar-title class="text-black">GAB Bildung</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -17,9 +17,10 @@
     </v-toolbar>
     <v-spacer />
     <v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank"> 
-    <span class="mr-2">Neue Website</span>
+    <span class="mr-2">Github Link für Vuetify</span>
     </v-btn>
     <v-content>
+      <!-- hier muss der v-router rein -->
       <HelloWorld/>
     </v-content>
     <v-footer class="bg-grey-lighten-1">
